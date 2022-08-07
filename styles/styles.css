@@ -31,12 +31,12 @@ nav{
 .view{
     display: grid;
     place-content: center;
-    background-image: url("./images/kennedy.jpg");
+    background-image: url("https://images.app.goo.gl/kdmexhJbwjiYZfCd9");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: aquamarine;
-    height: 200px;
+    height: 200px;width:100%;
 }
 .view .view-link{
     display: flex;
@@ -47,4 +47,45 @@ nav{
     text-decoration: none;
     padding-right: 8px;
     padding-left: 8px;
+}
+.intro{
+    background-color: rgb(51, 47, 47);
+    height: 250px;width: 100%;
+}
+.testmonials{
+    display: flex;
+    flex-direction: row;
+}
+.testmonials img{
+    height: 200px;
+}
+.testmonials .text{
+    width: 50%;
+    color: white;
+    background-color: black;
+}
+.services{
+    background-color:  rgb(51, 47, 47);
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box{
+    background-color: black;
+    color: white;
+    height: 250px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.footer h3,p {
+    color: white;
+    padding:15px;
+}
+.copyright{
+    background-color:rgb(51, 47, 47);
 }
