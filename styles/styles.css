@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .container {
@@ -36,6 +37,47 @@ nav {
     border-radius: 3px;
     color: white;
     background-color: rgb(19, 18, 18);
+}
+
+.hambuger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:768px) {
+    .hambuger {
+        display: block;
+    }
+    .hambuger .active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hambuger .active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg)
+    }
+    .hambuger .active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg)
+    }
+    .link {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 150px;
+        text-align: center;
+        transition: 0.3s;
+    }
 }
 
 .view {
