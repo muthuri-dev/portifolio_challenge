@@ -41,7 +41,7 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: white;
 }
 .nav-menu {
     display: flex;
@@ -61,6 +61,7 @@ a {
 
 .nav-link:hover{
     color: #482ff7;
+    text-decoration: underline;
 }
 
 .nav-logo {
@@ -115,7 +116,7 @@ a {
 .view {
     display: grid;
     place-content: center;
-    background-image: url("https://images.app.goo.gl/kdmexhJbwjiYZfCd9");
+    background-image: url("../images/port.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
