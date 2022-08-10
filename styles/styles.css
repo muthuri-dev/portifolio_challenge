@@ -11,6 +11,7 @@
 html {
     font-size: 60.5%;
     font-family: 'Roboto', sans-serif;
+    overflow-x:scroll;
 }
 
 li {
@@ -120,7 +121,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: aquamarine;
     height: 200px;
     width: 100%;
 }
@@ -137,7 +137,7 @@ a {
 }
 
 .intro {
-    background-color: rgb(51, 47, 47);
+    background-color: rgb(26, 23, 23);
     height: 250px;
     width: 100%;
     padding: 20px;
@@ -149,7 +149,7 @@ a {
 }
 
 .testmonials img {
-    height: 300px;
+    height: 300px;object-fit: fill;
     width: 700px ;
 }
 
@@ -160,7 +160,7 @@ a {
 }
 
 .services {
-    background-color: rgb(51, 47, 47);
+    background-color: rgb(32, 31, 31);
 }
 
 .boxes {
@@ -168,19 +168,28 @@ a {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .cont {
     background-color: black;
     color: white;
-    height: 250px auto;width: 250px;
+    height: 250px auto;width: 350px;
+    border-radius: 5px;
 }
 img{
-    border-radius: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+input{
+    height: 25px;
+    border-radius: 5px;
+    padding-left:10px ;
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(3, 2, 2);
+    padding: 20px;
     display: flex;
     flex-direction: row;
 }
@@ -188,9 +197,18 @@ footer {
 .footer h3,
 p {
     color: white;
-    /*padding: 15px;*/
+    margin: 20px;
+    font-size: 12px;
 }
 
 .copyright {
     background-color: rgb(51, 47, 47);
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+.icons ul{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
 }
