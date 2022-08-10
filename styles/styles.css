@@ -193,8 +193,11 @@ footer {
     display: flex;
     flex-direction: row;
 }
+.footer{
+    width: 350px;
+}
 
-.footer h3,
+.footer h3,h4,
 p {
     color: white;
     margin: 20px;
@@ -211,4 +214,5 @@ p {
     display:flex;
     flex-direction: row;
     gap: 15px;
+    color:white;
 }
