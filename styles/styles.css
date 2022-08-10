@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 60.5%;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -140,6 +140,7 @@ a {
     background-color: rgb(51, 47, 47);
     height: 250px;
     width: 100%;
+    padding: 20px;
 }
 
 .testmonials {
@@ -148,7 +149,8 @@ a {
 }
 
 .testmonials img {
-    height: 200px;
+    height: 300px;
+    width: 700px ;
 }
 
 .testmonials .text {
@@ -165,12 +167,16 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
-.box {
+.cont {
     background-color: black;
     color: white;
-    height: 250px;
+    height: 250px auto;width: 250px;
+}
+img{
+    border-radius: 10px;
 }
 
 footer {
@@ -182,7 +188,7 @@ footer {
 .footer h3,
 p {
     color: white;
-    padding: 15px;
+    /*padding: 15px;*/
 }
 
 .copyright {
