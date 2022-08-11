@@ -8,7 +8,7 @@
 
 ## Authors
 
-- [@Kennedymuthuri](https://www.github.com/Kennedymuthuri)
+- [@Kennedymuthuri](https://www.github.com/Kennedymuthur)
 - [@faithkiptoo](https://www.github.com/faithkiptoo)
 - [@kayode](https://www.github.com/olakad13)
 
@@ -34,7 +34,7 @@ Start the server
 
 ## Features
 
-- User authentication
+- The web page offers a responsive user interface which is appering in both mobile phone and desktop through the hambuger menu
 
 
 ## Screenshots
